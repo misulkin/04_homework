@@ -49,35 +49,37 @@ h1,h2,h3,h4,h5,h6 {font-size:inherit; font-weight: 400;}
     background: url('../img/newback.png') center center;
     background-repeat: repeat-y;
     background-size: cover; 
-    border: hotpink 5px solid;
     display: flex;
     justify-content: center;
 }
 .main__block {
 width: 50%;
 height: auto;
-border: solid 5px yellow;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 }
 .main__logo{
     width: 100%;
     height: auto;
-    border: whitesmoke 2px solid;
     margin-top: 20%;
     text-align: center;
+    margin-bottom: 30px;
 }
 .main__logo>img {
     width: 50%;
     height: auto;
     min-width: 100px;
 }
+.main__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .main__sociallist {
-    width: 200px;
+    width: 150%;
     height: auto;
-    border: solid green 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -86,6 +88,29 @@ justify-content: space-between;
     width: 200%;
     height: auto;
     text-align: center;
+    margin-top: 10px;
+}
+.main__img>p {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.main__greyline {
+width: 130%;
+border-bottom: white 2px solid;
+}
+.main__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px ;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.main__copy{
+    margin-top: 50%;
+    color: white;
 }
 
     
